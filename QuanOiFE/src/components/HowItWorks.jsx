@@ -187,7 +187,7 @@ export default function HowItWorks() {
             whileTap={{ scale: 0.97 }}
             className="px-8 py-4 bg-gradient-to-r from-brand-500 to-brand-600 text-white font-bold rounded-2xl shadow-brand-lg"
           >
-            Bắt đầu miễn phí 14 ngày
+            Bắt đầu miễn phí 7 ngày
           </motion.button>
         </motion.div>
       </div>

@@ -27,7 +27,7 @@ const plans = [
     ],
     cta: 'Bắt đầu miễn phí',
     ctaStyle: 'bg-stone-700 hover:bg-stone-800 text-white',
-    note: 'Dùng thử 14 ngày miễn phí',
+    note: 'Dùng thử 7 ngày miễn phí',
   },
   {
     id: 'pro',
@@ -121,9 +121,8 @@ export default function Pricing() {
                 initial={{ opacity: 0, y: 50 }}
                 animate={isInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.6, delay: i * 0.15 }}
-                className={`relative bg-white rounded-3xl border-2 ${plan.borderColor} shadow-card flex flex-col overflow-hidden ${
-                  plan.popular ? 'ring-2 ring-brand-400 ring-offset-2' : ''
-                }`}
+                className={`relative bg-white rounded-3xl border-2 ${plan.borderColor} shadow-card flex flex-col overflow-hidden ${plan.popular ? 'ring-2 ring-brand-400 ring-offset-2' : ''
+                  }`}
               >
                 {/* Popular badge */}
                 {plan.popular && (

@@ -60,7 +60,7 @@ export default function Footer() {
             transition={{ duration: 0.7, delay: 0.1 }}
             className="text-brand-100 text-lg mb-8"
           >
-            Dùng thử miễn phí 14 ngày, không cần thẻ tín dụng
+            Dùng thử miễn phí 7 ngày, không cần thẻ tín dụng
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -105,7 +105,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-stone-400 text-sm leading-relaxed mb-6">
-              Nền tảng quản lý nhà hàng thông minh với trợ lý AI độc quyền. 
+              Nền tảng quản lý nhà hàng thông minh với trợ lý AI độc quyền.
               Được tin dùng bởi hơn 2,000+ nhà hàng trên khắp Việt Nam.
             </p>
             {/* Contact */}
