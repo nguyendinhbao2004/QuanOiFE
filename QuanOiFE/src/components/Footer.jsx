@@ -77,14 +77,6 @@ export default function Footer() {
             >
               Bắt đầu miễn phí ngay
             </motion.button>
-            <motion.button
-              id="footer-contact-btn"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.97 }}
-              className="px-8 py-4 bg-white/20 text-white font-bold rounded-2xl border-2 border-white/40 hover:bg-white/30 transition-all duration-200"
-            >
-              Gọi tư vấn miễn phí
-            </motion.button>
           </motion.div>
         </div>
       </div>
